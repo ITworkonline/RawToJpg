@@ -3,8 +3,8 @@ import os
 import rawpy
 import imageio
 
-image_folder = sys.argv[0]
-output_folder = sys.argv[1]
+image_folder = sys.argv[1]
+output_folder = sys.argv[2]
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
